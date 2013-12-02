@@ -1,3 +1,5 @@
+import processing.pdf.*;
+
 float r =0; //  rotation
 float r2 =0; 
 
@@ -5,6 +7,7 @@ void setup(){http://culture.samples.fr/
 	size(1000,1000);
 	background(255);
 	rectMode(CENTER);
+	beginRecord(PDF,"coolandtheromy.pdf");
 }
 
 void draw(){
@@ -33,5 +36,6 @@ void draw(){
 
 	r+=.01;
 	r2+=.05;
-
+ 	
+ 	endRecord();
 }
