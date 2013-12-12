@@ -1,6 +1,4 @@
 ##CabTutoProcessing
 
 
-####01 :
-- boucle for
-- PShape
+Processing, HEAR, october to december 2013. 
