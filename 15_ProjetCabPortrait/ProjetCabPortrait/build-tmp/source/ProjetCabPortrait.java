@@ -35,7 +35,7 @@ public void draw(){
 			translate(posX, posY);
 			fill(couleur);
 			//rect(0, 0, 5, 5);
-			triangle(12, 12, 20, 20 , 30,30);			
+			triangle();			
 			popMatrix();
 		}
 	}
