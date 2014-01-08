@@ -5,7 +5,7 @@ PShape jambe[] = new PShape[nbImages];
 PShape bras[] = new PShape[nbImages];
 PFont font;
 String[] fontList =PFont.list();
-String syllabe[] = {"PU","PO","PA","PAR","LA","LO","MI","KO","NI","FAI"};
+String syllabe[] = {"PU","PO","PA","PAR","LA","LO","MI","KO","NI","FAI","BA","TA","BA","FA","LA"};
 //syllabe[] += {"CHOU"}; //si besoin d'une deuxieme ligne
 String name ;
 int nbSyllabe;
@@ -41,7 +41,7 @@ void draw(){
 
 	    //println(fontList);
 		textFont(font , 120);
-		nbSyllabe = int(random(4,6));
+		nbSyllabe = int(random(4,12));
 		name="";
 		for (int a=0 ; a<nbSyllabe;a++){
 		name += syllabe[int(random(syllabe.length))]; ///choisi le nombre de syllable suivant le nombre de syllable rentré >>.length
